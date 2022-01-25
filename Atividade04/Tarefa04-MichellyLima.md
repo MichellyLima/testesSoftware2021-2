@@ -11,12 +11,12 @@
 
 |CT|Valor de Entrada|Resultado Esperado|Classe Equivalência|
 |--|--|--|--|
-|CT01|nota01 = -2|Valor Inválido|CE1|
-|CT02|nota01 = 0|Valor Válido|CE2|
-|CT03|nota01 = 1|Valor Válido|CE2|
-|CT04|nota02 = -1|Valor Inválido|CE3|
-|CT05|nota02 = 0|Valor Válido|CE4|
-|CT06|nota02 = 1|Valor Válido|CE4|
+|CT01|nota01 = -2.00|Valor Inválido|CE1|
+|CT02|nota01 = 0.00|Valor Válido|CE2|
+|CT03|nota01 = 1.10|Valor Válido|CE2|
+|CT04|nota02 = -1.00|Valor Inválido|CE3|
+|CT05|nota02 = 0.00|Valor Válido|CE4|
+|CT06|nota02 = 1.01|Valor Válido|CE4|
 |CT07|cargaHoraria = 0|Valor Inválido|CE5|
 |CT08|cargaHoraria = -2|Valor Inválido|CE6|
 |CT09|cargaHoraria = 3|Valor Válido|CE6|
