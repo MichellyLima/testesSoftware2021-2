@@ -68,7 +68,7 @@ Dado que temos 27 arestas e 18 nós: 27 - 18 +2 = 11
 4. Definir os casos de teste necessários para se percorrer todos estes caminhos. Cada caso de teste deve ter o valor correspondente para cada variável de entrada e o valor esperado.
 
 |Caso de Teste|nota1|nota2|falta|cargaHoraria|Resultado Esperado|
-|--|--|--|--|--|--|--|
+|--|--|--|--|--|--|
 |01| nota1 = -1| N/A | N/A | N/A | "Valores Inválidos." |
 |02|  nota1 = 12 | N/A | N/A | N/A | "Valores Inválidos." |
 |03| nota1 = 7 | nota2 = -1 | N/A | N/A | "Valores Inválidos." |
