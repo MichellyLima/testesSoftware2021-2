@@ -52,19 +52,31 @@ Dado que temos 27 arestas e 18 nós: 27 - 18 +2 = 11
 
 3. Definir quantos caminhos de execução existem;
 
+1-2-9 <br/>
+1-2-3-9 <br/>
+1-2-3-4-9 <br/>
+1-2-3-4-5-9 <br/>
+1-2-3-4-5-6-9 <br/>
+1-2-3-4-5-6-7-9 <br/>
+1-2-3-4-5-6-7-8-9 <br/>
+1-2-3-4-5-6-7-8-10-11-18 <br/>
+1-2-3-4-5-6-7-8-10-12-13-18 <br/>
+1-2-3-4-5-6-7-8-10-12-14- 17-18 <br/>
+1-2-3-4-5-6-7-8-10-12-14-15-16-18 <br/>
+1-2-3-4-5-6-7-8-10-12-14-15-17-18
+
 4. Definir os casos de teste necessários para se percorrer todos estes caminhos. Cada caso de teste deve ter o valor correspondente para cada variável de entrada e o valor esperado.
 
-|Caso de Teste|Valor de Entrada|Resultado Esperado|Classe Equivalência|
-|--|--|--|--|
-|01|a |b |C1|
-|02|a |b |C1|
-|03|a |b |C1|
-|04|a |b |C1|
-|05|a |b |C1|
-|06|a |b |C1|
-|07|a |b |C1|
-|08|a |b |C1|
-|09|a |b |C1|
-|10|a |b |C1|
-|11|a |b |C1|
-|12|a |b |C1|
+|Caso de Teste|nota1|nota2|falta|cargaHoraria|Resultado Esperado|
+|--|--|--|--|--|--|--|
+|01| nota1 = -1| N/A | N/A | N/A | "Valores Inválidos." |
+|02|  nota1 = 12 | N/A | N/A | N/A | "Valores Inválidos." |
+|03| nota1 = 7 | nota2 = -1 | N/A | N/A | "Valores Inválidos." |
+|04| nota1 = 7 | nota2 = 12 | N/A | N/A | "Valores Inválidos." |
+|05| nota1 = 7 | nota2 = 8 | faltas = -1 | N/A | "Valores Inválidos" 
+|06| nota1 = 7 | nota2 = 8 | faltas = 2 | cargaHoraria = 0 | "Valores Inválidos." |
+|07| nota1 = 7 | nota2 = 8 | faltas = 2 | cargaHoraria = -1 | "Valores Inválidos." |
+|08| nota1 = 7 | nota2 = 8 | faltas = 25 | cargaHoraria = 100 | "Reprovado por falta." |
+|09| nota1 = 2 | nota2 = 2 | faltas = 2 | cargaHoraria = 32 | "Reprovado por Média." |
+|10| nota1 = 7 | nota2 = 3 | faltas = 2 | cargaHoraria = 32 | "Prova Extra." |
+|11| nota1 = 7 | nota2 = 9 | faltas = 2 | cargaHoraria = 32 | "Aprovado." |
