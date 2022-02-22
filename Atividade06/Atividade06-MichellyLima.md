@@ -42,6 +42,7 @@ INSTRUÇÕES:
 #### RESPOSTAS
 
 1. Desenhar o **Grafo do Fluxo de Controle**. Pode-se anexar a imagem, aqui neste arquivo.
+![image](https://user-images.githubusercontent.com/43323869/155055090-ac9ba973-804e-4aa2-b770-c57cefd6989e.png)
 ![graph](https://user-images.githubusercontent.com/43323869/155046780-b850d049-91c7-485e-83f1-68cad4c6bb45.png)
 
 2. Calcular a complexidade ciclomática do código. Exemplo de como calcular pode ser obtido no [link](https://www.treinaweb.com.br/blog/complexidade-ciclomatica-analise-estatica-e-refatoracao)
